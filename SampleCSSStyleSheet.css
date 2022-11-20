@@ -1,0 +1,41 @@
+﻿/*Element Selector*/
+body
+{
+    background-color:aqua;
+}
+/*Element Selector*/
+h2 {
+    color:green;
+}
+/*ID Selector*/
+#id1 {
+    color: deeppink;
+}
+/*Class Selector*/
+.demo {
+    /*hexadecimal representation of color - first two f represents red, 
+        then blue, then green -#ffffff-white color,
+        0 to 9, then A to F for 11 to 15- max 15 values acceptable*/
+    color: #ffffff;
+    color: #000000;
+    color: #ffff00;
+    /*rgb(0,0,255) partially transparent - use rgba(255,255,0)*/
+    color: rgb(255,255,255);
+    color: rgba(0,0,255,.5);
+    /*Extra two digits in hexadecimal format makes it partialy transparent*/
+    color: #000000ff;
+    color: #00000000;
+    /*hsl-hue - 0 to360, saturation - 0 to 100 percent max bright - 100%, 
+        lightness - 0 to 100% , 0 gives black and 100 gives white effect*/
+    color: hsl(0,100%,50%);
+    /*hsla where alpha value with 0 transparent and 1 opaque*/
+    color: hsla(0,100%,50%,1);
+}
+.box{
+    height:100px;
+    width:100px;
+    padding:20px;
+    border:10px solid black;
+    margin:60px;
+    background-color:red;
+}

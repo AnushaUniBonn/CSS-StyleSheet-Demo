@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS first pratcice</title>
+    <style>
+        h5{
+            color:blue;
+        }
+    </style>
+    <link rel="stylesheet" href="SampleCSSStyleSheet.css" />
+    <!--html takes last style element defined in the head. Here it is link element.
+        Element selectors are lowest level selectors from css file.
+        Class selector is overriden by id selector-->
+    <!--CSS can be specified in HTML page as 
+        1. Inline - Attribute of HTML element inside body tag in HTML Page.
+        2. Style Element- Define in head tag in HTML page.
+        3. External CSS File - link the external css file in HTML page-->
+</head>
+<body>
+    <h1 style="color:darkmagenta;">This is first heading</h1>
+    <h2>This is second heading</h2>
+    <p>
+        <h3 class="demo">This is first line of paragraph.</h3>
+        <h4 id="id1">This is second line of paragraph.</h4>
+        <h5>This is third line of paragraph.</h5>
+    </p>
+    <div class="box"></div>
+</body>
+</html>
